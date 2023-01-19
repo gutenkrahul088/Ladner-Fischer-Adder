@@ -1,0 +1,214 @@
+$date
+	Thu Jan 19 02:38:31 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 9 ! sum [8:0] $end
+$var reg 8 " a [7:0] $end
+$var reg 8 # b [7:0] $end
+$var reg 1 $ carry_in $end
+$scope module i_top1 $end
+$var wire 9 % carry [8:0] $end
+$var wire 1 & carry_in $end
+$var wire 8 ' gen [7:0] $end
+$var wire 2 ( gp_temp0 [1:0] $end
+$var wire 2 ) gp_temp1 [1:0] $end
+$var wire 2 * gp_temp2 [1:0] $end
+$var wire 2 + gp_temp3 [1:0] $end
+$var wire 2 , gp_temp4 [1:0] $end
+$var wire 2 - gp_temp5 [1:0] $end
+$var wire 2 . gp_temp6 [1:0] $end
+$var wire 2 / gp_temp7 [1:0] $end
+$var wire 8 0 num1 [7:0] $end
+$var wire 8 1 num2 [7:0] $end
+$var wire 8 2 pro [7:0] $end
+$var wire 2 3 stage1_temp0 [1:0] $end
+$var wire 2 4 stage1_temp1 [1:0] $end
+$var wire 2 5 stage1_temp2 [1:0] $end
+$var wire 2 6 stage1_temp3 [1:0] $end
+$var wire 2 7 stage1_temp4 [1:0] $end
+$var wire 2 8 stage1_temp5 [1:0] $end
+$var wire 2 9 stage1_temp6 [1:0] $end
+$var wire 2 : stage1_temp7 [1:0] $end
+$var wire 2 ; stage2_temp0 [1:0] $end
+$var wire 2 < stage2_temp1 [1:0] $end
+$var wire 2 = stage2_temp2 [1:0] $end
+$var wire 2 > stage2_temp3 [1:0] $end
+$var wire 2 ? stage2_temp4 [1:0] $end
+$var wire 2 @ stage2_temp5 [1:0] $end
+$var wire 2 A stage2_temp6 [1:0] $end
+$var wire 2 B stage2_temp7 [1:0] $end
+$var wire 2 C stage3_temp0 [1:0] $end
+$var wire 2 D stage3_temp1 [1:0] $end
+$var wire 2 E stage3_temp2 [1:0] $end
+$var wire 2 F stage3_temp3 [1:0] $end
+$var wire 2 G stage3_temp4 [1:0] $end
+$var wire 2 H stage3_temp5 [1:0] $end
+$var wire 2 I stage3_temp6 [1:0] $end
+$var wire 2 J stage3_temp7 [1:0] $end
+$var wire 9 K sum [8:0] $end
+$var wire 2 L temp_pair [1:0] $end
+$var reg 2 M temp_pair_reg [1:0] $end
+$scope module i_gap1 $end
+$var wire 8 N a [7:0] $end
+$var wire 8 O b [7:0] $end
+$var wire 8 P gen [7:0] $end
+$var wire 8 Q pro [7:0] $end
+$upscope $end
+$scope module i_pe1 $end
+$var wire 2 R pair1 [1:0] $end
+$var wire 2 S pair2 [1:0] $end
+$var wire 2 T result [1:0] $end
+$upscope $end
+$scope module i_pe2 $end
+$var wire 2 U pair1 [1:0] $end
+$var wire 2 V pair2 [1:0] $end
+$var wire 2 W result [1:0] $end
+$upscope $end
+$scope module i_pe3 $end
+$var wire 2 X pair1 [1:0] $end
+$var wire 2 Y pair2 [1:0] $end
+$var wire 2 Z result [1:0] $end
+$upscope $end
+$scope module i_pe4 $end
+$var wire 2 [ pair1 [1:0] $end
+$var wire 2 \ pair2 [1:0] $end
+$var wire 2 ] result [1:0] $end
+$upscope $end
+$scope module i_pe5 $end
+$var wire 2 ^ pair1 [1:0] $end
+$var wire 2 _ pair2 [1:0] $end
+$var wire 2 ` result [1:0] $end
+$upscope $end
+$scope module i_pe6 $end
+$var wire 2 a pair1 [1:0] $end
+$var wire 2 b pair2 [1:0] $end
+$var wire 2 c result [1:0] $end
+$upscope $end
+$scope module i_pe7 $end
+$var wire 2 d pair1 [1:0] $end
+$var wire 2 e pair2 [1:0] $end
+$var wire 2 f result [1:0] $end
+$upscope $end
+$scope module i_pe8 $end
+$var wire 2 g pair1 [1:0] $end
+$var wire 2 h pair2 [1:0] $end
+$var wire 2 i result [1:0] $end
+$upscope $end
+$scope module i_pe9 $end
+$var wire 2 j pair1 [1:0] $end
+$var wire 2 k pair2 [1:0] $end
+$var wire 2 l result [1:0] $end
+$upscope $end
+$scope module i_pe10 $end
+$var wire 2 m pair1 [1:0] $end
+$var wire 2 n pair2 [1:0] $end
+$var wire 2 o result [1:0] $end
+$upscope $end
+$scope module i_pe11 $end
+$var wire 2 p pair1 [1:0] $end
+$var wire 2 q pair2 [1:0] $end
+$var wire 2 r result [1:0] $end
+$upscope $end
+$scope module i_pe12 $end
+$var wire 2 s pair1 [1:0] $end
+$var wire 2 t pair2 [1:0] $end
+$var wire 2 u result [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10 u
+b10 t
+b10 s
+b10 r
+b10 q
+b10 p
+b10 o
+b10 n
+b10 m
+b10 l
+b10 k
+b10 j
+b10 i
+b10 h
+b1 g
+b10 f
+b10 e
+b1 d
+b10 c
+b0 b
+b10 a
+b0 `
+b0 _
+b0 ^
+b1 ]
+b1 \
+b1 [
+b10 Z
+b10 Y
+b1 X
+b10 W
+b0 V
+b10 U
+b0 T
+b0 S
+b1 R
+b11100011 Q
+b11000 P
+b10111011 O
+b1011000 N
+b0 M
+b0 L
+b100010011 K
+b10 J
+b10 I
+b10 H
+b10 G
+b10 F
+b0 E
+b0 D
+b0 C
+b10 B
+b10 A
+b10 @
+b10 ?
+b10 >
+b0 =
+b0 <
+b0 ;
+b1 :
+b1 9
+b10 8
+b10 7
+b10 6
+b0 5
+b0 4
+b0 3
+b11100011 2
+b10111011 1
+b1011000 0
+b1 /
+b1 .
+b1 -
+b10 ,
+b10 +
+b0 *
+b1 )
+b1 (
+b11000 '
+0&
+b111110000 %
+0$
+b10111011 #
+b1011000 "
+b100010011 !
+$end
+#5
